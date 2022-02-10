@@ -1,12 +1,13 @@
 import './App.css';
 import react from 'react';
+import Todoform from './components/Todoform';
+import Todolist from './components/Todolist';
+import Todo from './components/Todo';
 
 function App() {
   return (
-    <div className='container'>
-      <div className="spinner-border text-primary" role="status">
-  <span className="visually-hidden">Loading...</span>
-</div>
+    <div className="todo-app">
+      <Todo/>
     </div>
   );
 }
